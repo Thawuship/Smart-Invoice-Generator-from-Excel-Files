@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#uploadSection {
+    margin-bottom: 20px;
+}
+
+#invoiceSection {
+    margin-top: 20px;
+}
+
+.table-container {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 4px; /* Reduced padding for smaller row height */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center; /* Center align header text */
+}
+
+td.id-column {
+    text-align: center; /* Center align ID column */
+}
+
+td.quantity-column,
+td.price-column,
+td.total-column {
+    text-align: right; /* Right align Quantity, Price, and Total columns */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.delete-icon {
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+}
