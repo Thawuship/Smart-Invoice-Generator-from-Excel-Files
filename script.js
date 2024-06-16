@@ -121,7 +121,7 @@ function updateTotal() {
         totalAmount += total;
     });
 
-    document.getElementById('totalAmount').textContent = `Total Amount: $${totalAmount.toFixed(2)}`;
+    document.getElementById('totalAmount').textContent = `Total Amount: Rs. ${totalAmount.toFixed(2)}`;
 }
 
 function generateInvoice() {
